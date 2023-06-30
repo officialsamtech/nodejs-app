@@ -5,6 +5,7 @@ metadata:
   description: This is a sample Nodejs app deployment
   annotations:
     backstage.io/managed-by-location: https://github.com/officialsamtech/nodejs-app/blob/main/catalog-info.yaml
+    github.com/project-slug: officialsamtech/nodejs-app
   tags:
     - node
     - web
