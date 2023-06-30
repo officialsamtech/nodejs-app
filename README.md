@@ -1,6 +1,6 @@
 # Express.js Sample App
 
-This is a simple Express.js application generated using the Express application generator. This application is deployed using [Fly.io](https://fly.io/).
+This is a simple Express.js application generated using the Express application generator.
 
 ## Local Development
 
@@ -36,34 +36,6 @@ npm start
 ```
 
 The application is now running at `http://localhost:3000`.
-
-## Deployment with Fly.io
-
-### Prerequisites
-
-- Fly.io CLI
-
-### Steps
-
-1. Log in to Fly.io:
-
-```bash
-flyctl auth login
-```
-
-2. Initialize a new Fly.io app:
-
-```bash
-flyctl apps create
-```
-
-3. Deploy the app:
-
-```bash
-flyctl deploy
-```
-
-Your application is now deployed and accessible at the URL provided by Fly.io.
 
 ## Connecting to Backstage
 
