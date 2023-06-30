@@ -14,13 +14,13 @@ This is a simple Express.js application generated using the Express application 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-org>/express-sample-app.git
+git clone https://github.com/Umoren/Nodejs-App
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd express-sample-app
+cd Nodejs-App
 ```
 
 3. Install the dependencies:
