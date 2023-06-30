@@ -3,10 +3,13 @@ kind: Component
 metadata:
   name: NodejsApp
   description: This is a sample Nodejs app deployment
+  annotations:
+    backstage.io/managed-by-location: https://github.com/officialsamtech/nodejs-app/blob/main/catalog-info.yaml
   tags:
     - node
     - web
     - express
+
 spec:
   type: service
   lifecycle: experimental
