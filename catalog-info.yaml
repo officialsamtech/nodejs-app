@@ -11,6 +11,8 @@ spec:
   type: service
   lifecycle: experimental
   owner: kosli
+  providesApis:
+    - user-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
