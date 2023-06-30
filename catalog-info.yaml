@@ -21,4 +21,5 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: koslog-docs-team
-  definitionAtlocation: url:https://github.com/officialsamtech/nodejs-app/blob/main/openapi.yaml
+  definition:
+    $text: https://github.com/officialsamtech/nodejs-app/blob/main/openapi.yaml
