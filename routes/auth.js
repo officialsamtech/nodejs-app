@@ -7,6 +7,31 @@ const router = express.Router();
 const users = [];
 
 // User Registration
+/**
+ * @swagger
+ * /register:
+ *   post:
+ *     summary: Register a new user
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - email
+ *               - password
+ *             properties:
+ *               email:
+ *                 type: string
+ *               password:
+ *                 type: string
+ *     responses:
+ *       201:
+ *         description: The user was successfully created
+ *       500:
+ *         description: There was an error creating the user
+ */
 router.post('/register', async (req, res) => {
     try {
         const hashedPassword = await bcrypt.hash(req.body.password, 10);
@@ -38,8 +63,6 @@ router.post('/login', async (req, res) => {
 
 // User Logout
 router.get('/logout', (req, res) => {
-    // In a real-world application, you'd invalidate the user's JWT here.
-    // This is a simple demo, so there's no JWT to invalidate.
     res.send('Logged out');
 });
 
