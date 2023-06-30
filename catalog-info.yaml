@@ -5,7 +5,7 @@ metadata:
   description: This is a sample Nodejs app deployment
   tags:
     - node
-    - web framework
+    - web
     - express
 spec:
   type: service
