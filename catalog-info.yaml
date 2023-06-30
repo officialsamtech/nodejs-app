@@ -1,8 +1,8 @@
 apiVersion:  backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Nodejs App Deployment
-  description: This is a sample Nodejs app deployment.
+  name: NodejsApp
+  description: This is a sample Nodejs app deployment
   tags:
     - node
     - web framework
