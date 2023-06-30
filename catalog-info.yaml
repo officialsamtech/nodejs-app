@@ -14,7 +14,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: kosli
+  owner: samtech
   providesApis:
     - user-api
 ---
