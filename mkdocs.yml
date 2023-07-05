@@ -1,4 +1,4 @@
-site_name: 'fuckusapp'
+site_name: 'nodejsapp'
 site_description: 'This is a sample Nodejs service that exposes a User Api'
 repo_url: https://github.com/officialsamtech/nodejs-app
 
