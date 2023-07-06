@@ -6,3 +6,6 @@ nav:
   - Home: index.md
   - API Reference: api.md
   - User Guide: usage.md
+
+plugins:
+  - techdocs-core
